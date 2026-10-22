@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Шаблон; не юридическая консультация. / Template, not legal advice. -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Privacy policy</title>
+        <style>
+    :root { color-scheme: light dark; --bg:#ffffff; --fg:#1d1f27; --muted:#5d6272; --line:#dfe2ea; --link:#4F46E5; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#14161d; --fg:#eceef4; --muted:#a2a7b8; --line:#2b2f3b; --link:#9aa6ff; } }
+    :root[data-theme="light"] { --bg:#ffffff; --fg:#1d1f27; --muted:#5d6272; --line:#dfe2ea; --link:#4F46E5; }
+    :root[data-theme="dark"] { --bg:#14161d; --fg:#eceef4; --muted:#a2a7b8; --line:#2b2f3b; --link:#9aa6ff; }
+    body { margin:0; padding:16px 18px 32px; background:var(--bg); color:var(--fg);
+           font-family: sans-serif; font-size:16px; line-height:1.5; }
+    h1 { font-size:22px; margin:8px 0 4px; }
+    h2 { font-size:17px; margin:24px 0 6px; }
+    p, li { margin:6px 0; }
+    ul { padding-left:20px; }
+    .meta { color:var(--muted); font-size:14px; }
+    a { color:var(--link); }
+    hr { border:0; border-top:1px solid var(--line); margin:20px 0; }
+    </style>
+    </head>
+    <body>
+        <h1>Privacy policy</h1>
+        <p class="meta">Last updated: October 22, 2026</p>
+        <h2>1. General</h2>
+        <p>KGB Autoclicker (package com.kgbrussia.autoclicker) is made by kgbrussia (we, us).</p>
+        <p>We do not collect, sell, or share your personal data.</p>
+        <h2>2. Accessibility service</h2>
+        <p>The app needs the Android Accessibility Service to perform taps and swipes at coordinates you set.</p>
+        <p>We do not read screen content from other apps or send it to our servers.</p>
+        <h2>3. Data on your device</h2>
+        <ul>
+            <li>Settings, target coordinates, and saved scenarios.</li>
+            <li>JSON import/export happens only when you choose a file in the system picker.</li>
+        </ul>
+        <p>Data stays on your device. You can erase it by clearing app data or uninstalling.</p>
+        <h2>4. Notifications and background work</h2>
+        <ul>
+            <li>A foreground service notification is shown while the overlay panel is active.</li>
+            <li>WAKE_LOCK is used only while a scenario is playing.</li>
+        </ul>
+        <p>Notifications do not contain personal data.</p>
+        <h2>5. Internet and analytics</h2>
+        <p>Core features work offline. There is no ads SDK, billing, or analytics telemetry.</p>
+        <h2>6. Support email</h2>
+        <p>If you email us, we receive your address and message text. We use it only to reply.</p>
+        <h2>7. Changes</h2>
+        <p>We may update this policy when the app changes. The date at the top shows the latest version.</p>
+        <hr>
+        <h2>Contact</h2>
+        <p>Questions: <a href="mailto:kgb.madara@gmail.com">kgb.madara@gmail.com</a></p>
+    </body>
+</html>
